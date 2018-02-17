@@ -1,0 +1,37 @@
+body {
+  background: #002124;
+  margin: 0rem;
+  min-height: 100vh;
+  font-family: Roboto, sans-serif;
+}
+
+#canvas, #text {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#text {
+  min-height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  color: #B18D43;
+  /* text-transform: uppercase; */
+  font-size: 8vmin;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+#text h1 {
+  opacity: 0.9;
+}
